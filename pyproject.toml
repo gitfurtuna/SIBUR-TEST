@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "test-task-sibur"
+version = "2024.6"
+dynamic = ["version"]
+requires-python = ">= 3.8"
+authors = [
+  {name = "Furtuna Olesya", email = "ofurtuna@internet.ru"}
+]
+description = "About cycle of events"
+readme = "README.md"
+keywords = ["VaBus", "Postgres", "event", "aggregation"]
+
+
+[project.urls]
+url = "https://vabus.sibur.digital:8080"
+
